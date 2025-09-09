@@ -46,7 +46,7 @@ export const useDecreseTimer = () => {
     if (count === 0) {
       stopTimer();
     }
-    // return () => stopTimer();
+    return () => stopTimer();
   }, [count]);
 
   return startTimer;
