@@ -1,0 +1,5 @@
+export const BUTTON_DISABLE_TIME = 0.5;
+
+export const GLOBAL_DECREASING_TIME = 10000;
+
+export const DECREASING_INTERVAL = 1000;
