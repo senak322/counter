@@ -46,8 +46,12 @@ export const useDecreseTimer = () => {
     if (count === 0) {
       stopTimer();
     }
-    return () => stopTimer();
+    
   }, [count]);
+
+  useEffect(() => {
+    return () => stopTimer();
+  }, [])
 
   return startTimer;
 };
